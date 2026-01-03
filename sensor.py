@@ -100,16 +100,16 @@ class DaylightPhaseSensor(SensorEntity):
         self._score_outdoor = self._calculate_score(lux_outdoor, self._max_outdoor) if lux_outdoor >= 0 else self._score_outdoor
 
         if elevation < -6:
-            new_state = "NACHT"
+            new_state = "night"
         elif elevation < 0:
-            new_state = "MORGEN-DÄMMERUNG" if rising else "ABEND-DÄMMERUNG"
+            new_state = "dawn" if rising else "dusk"
         else:
             if self._score_indoor < self._threshold_indoor and self._score_outdoor > self._threshold_outdoor:
-                new_state = "VERDUNKLUNG"
+                new_state = "darkening"
             elif self._score_indoor < self._threshold_indoor and self._score_outdoor <= self._threshold_outdoor:
-                new_state = "STARK_BEWÖLKT"
+                new_state = "cloudy"
             else:
-                new_state = "TAG"
+                new_state = "day"
         
         self._state = new_state
 

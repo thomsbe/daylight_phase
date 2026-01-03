@@ -16,5 +16,19 @@
                 }
             }
         }
+    },
+    "entity": {
+        "sensor": {
+            "daylight_phase": {
+                "state": {
+                    "night": "Noche",
+                    "dawn": "Amanecer",
+                    "dusk": "Atardecer",
+                    "day": "Día",
+                    "darkening": "Oscurecimiento",
+                    "cloudy": "Muy nublado"
+                }
+            }
+        }
     }
 }
