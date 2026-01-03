@@ -21,12 +21,12 @@
         "sensor": {
             "daylight_phase": {
                 "state": {
-                    "night": "Night",
-                    "dawn": "Dawn",
-                    "dusk": "Dusk",
-                    "day": "Day",
-                    "darkening": "Darkening",
-                    "cloudy": "Cloudy"
+                    "NIGHT": "Night",
+                    "DAWN": "Dawn",
+                    "DUSK": "Dusk",
+                    "DAY": "Day",
+                    "DARKENING": "Darkening",
+                    "CLOUDY": "Cloudy"
                 }
             }
         }

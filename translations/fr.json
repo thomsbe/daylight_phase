@@ -21,12 +21,12 @@
         "sensor": {
             "daylight_phase": {
                 "state": {
-                    "night": "Nuit",
-                    "dawn": "Aube",
-                    "dusk": "Crépuscule",
-                    "day": "Jour",
-                    "darkening": "Assombrissement",
-                    "cloudy": "Très nuageux"
+                    "NIGHT": "Nuit",
+                    "DAWN": "Aube",
+                    "DUSK": "Crépuscule",
+                    "DAY": "Jour",
+                    "DARKENING": "Assombrissement",
+                    "CLOUDY": "Très nuageux"
                 }
             }
         }
