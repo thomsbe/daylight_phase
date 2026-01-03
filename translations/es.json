@@ -1,0 +1,20 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Daylight Phase Controller",
+                "description": "Configure los sensores y umbrales para el control de la fase de luz diurna.",
+                "data": {
+                    "sun_sensor": "Sensor solar (sun.sun)",
+                    "indoor_sensors": "Sensores de luminosidad interior",
+                    "outdoor_sensors": "Sensores de luminosidad exterior",
+                    "calculation_method": "Método de cálculo (multi-sensor)",
+                    "max_lux_indoor": "Valor Lux máximo (Interior)",
+                    "max_lux_outdoor": "Valor Lux máximo (Exterior)",
+                    "threshold_indoor": "Umbral de puntuación de oscuridad (Interior)",
+                    "threshold_outdoor": "Umbral de puntuación de oscuridad (Exterior)"
+                }
+            }
+        }
+    }
+}

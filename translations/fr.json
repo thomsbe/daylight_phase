@@ -1,0 +1,20 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Daylight Phase Controller",
+                "description": "Configurez les capteurs et les seuils pour le contrôle de la phase de lumière du jour.",
+                "data": {
+                    "sun_sensor": "Capteur solaire (sun.sun)",
+                    "indoor_sensors": "Capteurs de luminosité intérieure",
+                    "outdoor_sensors": "Capteurs de luminosité extérieure",
+                    "calculation_method": "Méthode de calcul (multi-capteur)",
+                    "max_lux_indoor": "Valeur Lux max (Intérieur)",
+                    "max_lux_outdoor": "Valeur Lux max (Extérieur)",
+                    "threshold_indoor": "Seuil de score d'obscurité (Intérieur)",
+                    "threshold_outdoor": "Seuil de score d'obscurité (Extérieur)"
+                }
+            }
+        }
+    }
+}
