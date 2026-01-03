@@ -1,0 +1,20 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Daylight Phase Controller",
+                "description": "Configure sensors and thresholds for daylight phase control.",
+                "data": {
+                    "sun_sensor": "Sun Sensor (sun.sun)",
+                    "indoor_sensors": "Indoor Brightness Sensors",
+                    "outdoor_sensors": "Outdoor Brightness Sensors",
+                    "calculation_method": "Calculation Method (multi-sensor)",
+                    "max_lux_indoor": "Max Lux Value (Indoor)",
+                    "max_lux_outdoor": "Max Lux Value (Outdoor)",
+                    "threshold_indoor": "Darkness Score Threshold (Indoor)",
+                    "threshold_outdoor": "Darkness Score Threshold (Outdoor)"
+                }
+            }
+        }
+    }
+}

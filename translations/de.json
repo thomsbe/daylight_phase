@@ -1,0 +1,20 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Daylight Phase Controller",
+                "description": "Konfiguriere die Sensoren und Schwellenwerte für die Tageslicht-Phasen-Steuerung.",
+                "data": {
+                    "sun_sensor": "Sonnen-Sensor (sun.sun)",
+                    "indoor_sensors": "Helligkeitssensoren (Innen)",
+                    "outdoor_sensors": "Helligkeitssensoren (Außen)",
+                    "calculation_method": "Berechnungsmethode (bei mehreren Sensoren)",
+                    "max_lux_indoor": "Maximaler Lux-Wert (Innen)",
+                    "max_lux_outdoor": "Maximaler Lux-Wert (Außen)",
+                    "threshold_indoor": "Score-Schwelle Dunkelheit (Innen)",
+                    "threshold_outdoor": "Score-Schwelle Dunkelheit (Außen)"
+                }
+            }
+        }
+    }
+}

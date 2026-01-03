@@ -1,0 +1,14 @@
+{
+  "domain": "daylight_phase",
+  "name": "Daylight Phase Controller",
+  "documentation": "https://github.com/thomsbe/daylight_phase",
+  "dependencies": [
+    "sun"
+  ],
+  "codeowners": [
+    "@thomsbe"
+  ],
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "version": "1.0.0"
+}
